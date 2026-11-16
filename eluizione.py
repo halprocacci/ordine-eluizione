@@ -37,7 +37,7 @@ for i in range(st.session_state.num_rows):
         if sigla:
             if sigla in fa_db:
                 # Se è nel database, lo mostriamo bello chiaro e salviamo il valore
-                st.info(f"💡 Trovato: **{fa_db[sigla]}**")
+                st.info(f"**{fa_db[sigla]}**")
                 codice = fa_db[sigla]
             else:
                 # Se non c'è, lasciamo lo spazio per scriverlo
